@@ -1,0 +1,21 @@
+.box {
+  height: 300px;
+  width: 300px;
+  background: orange;
+  margin: 10px auto;
+  display: block;
+  animation: circle 1s alternate infinite;
+  /*forwards makes it stay as a circle ool*/ 
+
+}
+@keyframes circle{
+  0% {
+    border-radius: 0%;
+  }
+  50% {
+    border-radius: 50%;
+  }
+  1000% {
+    border-radius: 1000%
+  }
+}
